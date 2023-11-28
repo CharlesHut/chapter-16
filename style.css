@@ -1,0 +1,45 @@
+::before, ::after{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 100px;
+    text-align: center;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 4px black;
+}
+
+a:hover {
+    opacity: .60;
+}
+
+.div2 {
+    width: 400px;
+    border:1px solid white;
+    background-color: grey;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+    color: white;
+}
